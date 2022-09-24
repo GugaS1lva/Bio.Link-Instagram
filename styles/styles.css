@@ -65,8 +65,7 @@ ul li:hover {
 }
 
 ul li svg{
-    color: black;
-    margin-right: 10px
+    margin-right: 10px;
 }
 
 footer{
@@ -74,6 +73,10 @@ footer{
     position: absolute;
     bottom: 0;
     margin-bottom: 20px
+
+    opacity: 0;
+    filter: blur(10px);
+    transition: opacity 2s ease-in-out, filter 2s ease-in-out;
 }
 
 img {
