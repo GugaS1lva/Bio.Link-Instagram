@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Gustavo Silva | Link</title>
+</head>
+
+<body>
+    <div id="s-section"></div>
+    <main>
+        <header>
+            <img src="images/profile/perfil-02-clone.jpeg" alt="">
+            <h1>@guga.code</h1>
+        </header>
+
+        <ul>
+            <li>Oficial Website</li>
+            <li>Whatsapp</li>
+            <li>Telegram</li>
+            <li>Linkedin</li>
+            <li>Github</li>
+        </ul>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            window.VANTA.BIRDS({
+                el: "#s-section",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color1: 0x9500ff,
+                backgroundAlpha: 0.0,
+            })
+        })
+
+        setTimeout(() => {
+            const main = document.querySelector('main')
+            main.style.opacity = 1
+            main.style.filter = 'blur(0px)'
+        }, 1000);
+    </script>
+</body>
+
+</html>
