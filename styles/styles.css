@@ -21,9 +21,9 @@ ul {
 }
 
 body {
-    background-color: rgb(245, 245, 245);
-    background: url(../images/background/wpb-01.jpg) center top no-repeat fixed;
-    background-size: cover;
+    background-color: #1B1C1E; /* rgb(245, 245, 245); */
+    /* background: url(../images/background/wpb-01.jpg) center top no-repeat fixed;
+    background-size: cover; */
     height: 100vh;
     display: flex;
     flex-direction: column;
