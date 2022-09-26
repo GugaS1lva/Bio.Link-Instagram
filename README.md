@@ -21,7 +21,7 @@
 <h3 id="screenshot"><strong>Screenshot</strong></h3>
 
 • Layout Preview - 01 <br>
-![Mobile](./images/design/iPhone-XR-01.png)
+![Mobile](./images/design/iPhone-XR-02.png)
 
 <h3 id="links"><strong>Links</strong></h3>
 
